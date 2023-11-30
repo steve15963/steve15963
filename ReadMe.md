@@ -28,15 +28,15 @@
 
 - 분산처리 샘플 실행 모습
     
-    3 노드 CPU실행 테스트 모습
+    3 노드 CPU실행 테스트 모습 - 클릭시 영상으로 링크 됩니다.
     
     [![Video Label](http://img.youtube.com/vi/j4_h7WlUmzw/0.jpg)](https://youtu.be/j4_h7WlUmzw)
     
-    2 노드 CPU + GPU 실행 모습( 나머지 2대는 HDFS 대역폭용 )
+    2 노드 CPU + GPU 실행 모습( 나머지 2대는 HDFS 대역폭용 ) - 클릭시 영상으로 링크 됩니다.
     
     [![Video Label](http://img.youtube.com/vi/jTCtRnw_VPM/0.jpg)](https://youtu.be/jTCtRnw_VPM)
     
-- 블러 시연 영상
+- 블러 시연 영상 - 클릭시 영상으로 링크 됩니다.
 
     [![Video Label](http://img.youtube.com/vi/QbmakE5nIag/0.jpg)](https://youtu.be/QbmakE5nIag)
     
@@ -204,7 +204,7 @@
     - 데이터 베이스에서 Soft-Delete 전략
     - SPA으로 CSR방식을 이용하여 API DOC로 백엔드와 프론트가 Rest통신으로 구현
     - 블루투스로 위치 추적 및 체온 측정.
-- 시연 영상
+- 시연 영상 - 클릭시 영상으로 링크 됩니다.
 
     [![Video Label](http://img.youtube.com/vi/lnQ2JS36cBA/0.jpg)](https://youtu.be/lnQ2JS36cBA)
     
@@ -339,7 +339,7 @@ https://youtu.be/xbGlbdtn-FA
 
 [부산박물관 특별전 <부산, 관문 그리고 사람> (~12/5)](https://blog.naver.com/with_pen/222583868846)
 
-✔️시연
+✔️시연 - 클릭시 영상으로 링크 됩니다.
 
 [![Video Label](http://img.youtube.com/vi/gd5eS3aJ8aU/0.jpg)](https://youtu.be/gd5eS3aJ8aU)
 
