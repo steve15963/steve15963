@@ -9,19 +9,19 @@
 
 - 기획
 
-  ![블러샘플.gif](/Images/블러샘플.gif)
+  ![블러샘플.gif](/Images/orialz구현샘플.gif)
 
 - 결과
 
-  ![블러계획.gif](/Images/main.gif)
+  ![블러계획.gif](/Images/orialz기획샘플.gif)
 
 - ERD
     
-    ![ERD.png](/Images/erd.png)
+    ![ERD.png](/Images/OrialzERD.png)
     
 - 인프라 설계
     
-    ![인프라.png](/Images/인프라.png)
+    ![인프라.png](/Images/orialz인프라설계.png)
     
 
 협업툴 -JIRA, MatterMost, Git, Notion
@@ -153,31 +153,30 @@
 - 주제 : IOT와 Web의 결합
 - 목적 : 반려동물의 시장은 성장하고 있으나 이에 대한 **적절한 홍보** 및 **소통 시스템**이 적당한 부분이 없고 **동물의 상태를 체크**가 가능한 형태가 없기에 이를 서비스하고 기획및 개발한 서비스입니다
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6c47ea87-203d-40c8-8d89-668c0bf656d7/Untitled.png)
+![인프라.png](/Images/capetMain.png)
 
-- [페이지 - 링크](http://i9a105.p.ssafy.io)
 - ERD
     
-    ![Copy of Pet.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5de92b21-2528-4b48-a101-e26b4afbd293/Copy_of_Pet.png)
+    ![인프라.png](/Images/capetErd.png)
     
 - 협업툴
     - JIRA - 에자일, 스프린트, 스토리포인트, 이슈 트래킹
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0f5b23e1-c8a1-4bcd-86bf-6f41bad2f590/Untitled.png)
+        ![인프라.png](/Images/jira.png)
         
     - MatterMost - JIRA Hook, 팀원 소통
         
-        ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/fddf8347-0a66-413c-926d-68e146c2d7c1/a05a5767-a0b8-4594-a133-a036db8d55a4/Untitled.png)
+        ![인프라.png](/Images/capetMattermost.png)
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c218f29c-78cc-443c-b66a-6aa2e737c82f/Untitled.png)
+        ![인프라.png](/Images/GitLabWebhook.png)
         
     - Email - JIRA Hook
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f5ea1349-91df-4e87-81ca-e5727683bd23/Untitled.png)
+        ![인프라.png](/Images/capetEmail.png)
         
     - Git - 소스 관리, 자동 배포, JIRA연동
-        
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/df59dd6c-d82f-488d-9284-b16af5a6acb3/Untitled.png)
+ 
+        ![인프라.png](/Images/capetJira.png)
         
 - 기술 스택
     - Front
@@ -206,14 +205,14 @@
     - SPA으로 CSR방식을 이용하여 API DOC로 백엔드와 프론트가 Rest통신으로 구현
     - 블루투스로 위치 추적 및 체온 측정.
 - 시연 영상
-    
-    https://youtu.be/lnQ2JS36cBA
+
+    [![Video Label](http://img.youtube.com/vi/lnQ2JS36cBA/0.jpg)](https://youtu.be/lnQ2JS36cBA)
     
 - 넘어온 기술적 한계
     - 메모리
         1. 아두이노 우노 R3의 경우
-            
-            ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/040483f9-bcad-4b07-b95a-3215a5db6e5e/Untitled.png)
+
+            ![인프라.png](/Images/arduino.png)
             
             메모리가 약 2KB의 작은 컴퓨터입니다.
             
@@ -270,9 +269,9 @@
         
         이를 해결하기 위하여 칼만 필터를 적용하여 아래와 같은 표를 만들어 냈습니다.
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b5f256c9-68f8-42a0-a96f-0f907667d73b/Untitled.png)
-        
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/112e6c12-f8c0-4b6f-b661-fac7c4cca4f0/Untitled.png)
+        ![인프라.png](/Images/capet편차.png)
+
+        ![인프라.png](/Images/capet표준분포.png)
         
 - 느낀점
     
@@ -298,17 +297,17 @@
 - 목적 : Spring Boot를 이용하여 CSR방식으로 처음 개발해본 서비스입니다.
 API Doc, Flow Chart등 다양한 문서를 먼저 작업하고 개발을 해본 첫 팀 프로젝트입니다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/fddf8347-0a66-413c-926d-68e146c2d7c1/fece1fd8-c785-4b6b-a153-ba024651f971/Untitled.png)
+![인프라.png](/Images/공유해메인.png)
 
 https://youtu.be/xbGlbdtn-FA
 
 - ERD
     
-    ![1.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fddf8347-0a66-413c-926d-68e146c2d7c1/0e0366a3-fc42-44c0-9554-7c446b98f9a2/1.png)
+    ![인프라.png](/Images/공유해ERD.png)
     
 - API DOC
     
-    ![API DOC.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fddf8347-0a66-413c-926d-68e146c2d7c1/df0f6ca1-5a48-4518-803d-b72e3f9cb508/API_DOC.png)
+    ![인프라.png](/Images/공유해APIDOC.png)
     
 - 느낀점
     
@@ -332,9 +331,9 @@ https://youtu.be/xbGlbdtn-FA
 
 ## 2 - 1 음성 인식 및 답변 장치
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/fddf8347-0a66-413c-926d-68e146c2d7c1/03ff8f44-3d3f-4241-9e21-9461d26c7a45/Untitled.png)
+![인프라.png](/Images/음성인식.png)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/fddf8347-0a66-413c-926d-68e146c2d7c1/05259bb9-e0dd-4318-b1ec-3b2b4b19bb45/Untitled.png)
+![인프라.png](/Images/음석인식질문.png)
 
 ✔️기사
 
@@ -342,15 +341,15 @@ https://youtu.be/xbGlbdtn-FA
 
 ✔️시연
 
-[부산 박물관_ 부산, 관문 그리고 사람.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/fddf8347-0a66-413c-926d-68e146c2d7c1/c7bbfb7a-9d0a-4f19-b5e8-ccec2642319a/%EB%B6%80%EC%82%B0_%EB%B0%95%EB%AC%BC%EA%B4%80__%EB%B6%80%EC%82%B0_%EA%B4%80%EB%AC%B8_%EA%B7%B8%EB%A6%AC%EA%B3%A0_%EC%82%AC%EB%9E%8C.mp4)
+[![Video Label](http://img.youtube.com/vi/gd5eS3aJ8aU/0.jpg)](https://youtu.be/gd5eS3aJ8aU)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/fddf8347-0a66-413c-926d-68e146c2d7c1/b4c15689-397c-4e09-ba52-39d0f535ab09/Untitled.png)
+![인프라.png](/Images/음성인식예제.png)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/fddf8347-0a66-413c-926d-68e146c2d7c1/5feb02ba-9fe1-4c96-9de8-5d8edb9f4434/Untitled.png)
+![인프라.png](/Images/음성인식예제2.png)
 
 ## 2 - 2 부산농업기술지원센터 - 홍보관
 
-![KakaoTalk_20220919_170942955_01.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/fddf8347-0a66-413c-926d-68e146c2d7c1/4ab6bc4e-2d8d-4eff-aea4-6ad3e748256c/KakaoTalk_20220919_170942955_01.jpg)
+![인프라.png](/Images/부산농업기술지원센터.jpg)
 
 ✔️**구현 사항**
 
@@ -368,7 +367,7 @@ https://youtu.be/xbGlbdtn-FA
 
 ✔️**1차 프로젝트 문제점 발생.**
 
-![ImagePrint.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/fddf8347-0a66-413c-926d-68e146c2d7c1/8f84476f-14c3-42b3-a5be-3f45ebb93590/ImagePrint.jpg)
+![인프라.png](/Images/ImagePrint.jpg)
 
 - 기계식 슬라이드 장치 개발자와 협의를 통하여 스위치를 선정하여 개발
 - 기계식 슬라이드 장치가 내려오는 장치의 충격을 흡수하지 못하고 고장 및 사용자 부상을 유발
@@ -411,16 +410,16 @@ https://youtu.be/xbGlbdtn-FA
         - PCI-E의 LTE모뎀을 AT커맨드로 가능하지만 USIM슬롯에 대한 비용으로 차선책
         - 라즈베리파이에 mpci-e있는 모델이 없습니다.
             
-            ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/be0142b6-dd61-4b79-9eec-905b6f52a1b3/Untitled.png)
+            ![인프라.png](/Images/안구마우스sms.png)
             
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6aa30e0b-8d5b-4d5a-95d5-547457cbf662/Untitled.png)
+        ![인프라.png](/Images/안구마우스리버스.png)
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f750357c-d8d6-4388-adad-5fe294781b94/Untitled.png)
+        ![인프라.png](/Images/안구마우스리버스2.png)
         
     - EyeCan 사용 일부
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d1abdc2d-503e-46ae-bf9d-42cc89529872/Untitled.png)
+    ![인프라.png](/Images/안구인식.png)
     
 
 프로젝트 임시 중단.
@@ -438,4 +437,4 @@ https://youtu.be/xbGlbdtn-FA
 - 주제 : GPS 데이터를 파싱하여 위치를 추적하는 서비스.
 - 목적 : 컴퓨터를 많이 하는 제가 자주 혼나서 아버지 차량에 몰래 설치한 GPS 위치 추적기 입니다.
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/fddf8347-0a66-413c-926d-68e146c2d7c1/4898307e-2934-4c73-beb8-60644ef0082c/Untitled.png)
+    ![인프라.png](/Images/GPS.png)
